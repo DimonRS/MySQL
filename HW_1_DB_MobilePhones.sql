@@ -22,7 +22,8 @@ CREATE TABLE HomeWork_1_mobile_phones
   manufacturer VARCHAR(45) NOT NULL,
   product_count INT  NOT NULL,
   price Float  NOT NULL,
-  PRIMARY KEY (id));
+  PRIMARY KEY (id)
+ );
   
   -- 4. Заполнение таблицы значениями
   INSERT HomeWork_1_mobile_phones (product_name, manufacturer, product_count, price)
